@@ -1,2 +1,3 @@
 // Add your functions here
-array.map(e=>-e);
+const newArray = function map(Array, fun){
+  return Array.map(fun);
